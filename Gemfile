@@ -2,10 +2,10 @@
 
 source 'https://rubygems.org'
 
-unless Gem.win_platform?
-  gem 'image_optim'
-  gem 'image_optim_pack'
-end
+#removed the Windows conditional for the following two gems and ran bundle install again
+gem 'image_optim'
+gem 'image_optim_pack'
+
 gem 'jekyll'
 gem 'mini_magick'
 gem 'rake'
