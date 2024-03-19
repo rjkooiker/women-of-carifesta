@@ -14,7 +14,7 @@ banner image here {% include feature/jumbotron.html objectid="https://cdil.lib.u
 
 --> 
 
-{% include feature/nav-menu.html sections="About this Exhibit;Contributors" %}
+{% include feature/nav-menu.html sections="About this Exhibit;Contributors;Rights" %}
 
 ## About this Exhibit
 
@@ -23,4 +23,8 @@ banner image here {% include feature/jumbotron.html objectid="https://cdil.lib.u
 
 ## Contributors
 
-{% include cb/contributors.md %} 
+{% include cb/contributors.md %}
+
+## Rights
+
+TK
