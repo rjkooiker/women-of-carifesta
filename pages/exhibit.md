@@ -14,7 +14,7 @@ banner image here
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
 
 --> 
-{% include feature/nav-menu.html sections="Introduction;Lynette Dolphin;Louise Bennett;Lorna Goodison;Guyana Drums" %}
+{% include feature/nav-menu.html sections="Introduction: Women of Carifesta;Lynette Dolphin;Louise Bennett;Lorna Goodison;Guyana Drums" %}
 
 ## Introduction: Women of Carifesta
 
