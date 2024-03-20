@@ -13,8 +13,53 @@ credits: true
 banner image here
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
 
---> 
+nav menu on top
 {% include feature/nav-menu.html sections="Introduction: Women of Carifesta;Lynette Dolphin;Louise Bennett;Lorna Goodison;Guyana Drums;Notes" %}
+--> 
+
+
+<!---experimenting with nav scrollspy on bootstrap-->
+
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">Introduction: Women of Carifesta</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Lynette Dolphin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3">Louise Bennett</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading4">Lorna Goodison</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading5">Guyana Drums</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading6">Notes</a>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">Introduction: Women of Carifesta</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading2">Lynette Dolphin</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading3">Louise Bennett</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading4">Lorna Goodison</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading5">Guyana Drums</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading6">Notes</h4>
+  <p>...</p>
+</div>
+
+
+
 
 ## Introduction: Women of Carifesta
 
@@ -54,7 +99,7 @@ Based on the success of Carifesta ‘72, the Cuban government invited Dolphin to
 
 Louise Bennett–the legendary Jamaican storyteller, poet, radio personality, and cultural activist–attended all four Carifesta editions exhibited here. She was given a place of honor at the opening ceremonies of Guyana ’72 and at Cuba ’79 as a leader of the Jamaican delegations. A news article describing her arrival in Guyana, where she met with festival Commissioner Frank Pilgrim in a "V.I.P. lounge," also describes the Olympic Village-style "Festival City," which housed the distinguished visitors. There, the article continues, "specially trained maids have already moved in with their brooms and other paraphenalia [sic] to provide a spic and span welcome."[^2] This contrast between working-class Caribbean women hired to cater to the needs of middle-class performers who are seen as their 'voices', the protectors of lower-class folk traditions, is a poignant reminder of the societal divisions in Guyana and the Caribbean.
 
-{% include feature/image.html objectid="c02" width="75" caption="Bennett on stage for *All Kinds of Folk*" %}
+{% include feature/image.html objectid="c02" width="75" caption="Bennett on stage for <i>All Kinds of Folk</i>" %}
 
 One of Guyana’s flagship performances during the festival was the variety show "All Kinds of Folk." The show highlighted the diversity of Guyana’s many peoples, descendants from African, Indian, Chinese, and other ethnicities–all of whom were brought there under the duress of enslavement or indentured servitude. Miss Lou’s performance during "All Kinds of Folk" was a hit, inspiring rave reviews in the press.⁠[^3] Her brilliance saved a reportedly "ponderous" and heavy-handed production from "lethargy" and forgettability.⁠[^4]
 
