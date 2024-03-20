@@ -1,6 +1,5 @@
 ---
 title: "Introduction: Women of Carifesta"
-id: scrollspyHeading1
 ---
 
 ## Introduction: Women of Carifesta

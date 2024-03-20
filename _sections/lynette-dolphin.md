@@ -1,6 +1,5 @@
 ---
 title: "Lynette Dolphin"
-id: scrollspyHeading2
 ---
 
 ## Lynette Dolphin
