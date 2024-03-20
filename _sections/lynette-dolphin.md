@@ -1,8 +1,7 @@
 ---
 title: "Lynette Dolphin"
 ---
-
-## Lynette Dolphin
+---
 
 {% include feature/image.html objectid="b01" width="75" caption="Portrait of Lynette Dolphin" %}
 
@@ -25,5 +24,3 @@ One of Dolphin’s most significant trips abroad was to Brazil, where she spent 
 Based on the success of Carifesta ‘72, the Cuban government invited Dolphin to Havana to advise on preparations for the 1979 edition of Carifesta. During that festival, Edward Kamau Brathwaite, the Barbadian poet and frequent Carifesta participant, had called her the "MOTHER OF CARIFESTA."[^1]
 
 [^1]: Edward Kamau Brathwaite, Letter to John La Rose, 4 August 1979. George Padmore Institute, John La Rose Papers.
-
----
