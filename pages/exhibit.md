@@ -46,17 +46,6 @@ nav menu on top
 </nav>
 -->
 
-<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-  <a class="navbar-brand" href="#">Exhibit Navigation</a>
-  <ul class="nav nav-pills">
-    {% for section in site.sections %}
-      <li class="nav-item">
-        <a class="nav-link" href="#{{ section.id }}">{{ section.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
-
 <!---
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
   <h2 id="scrollspyHeading1">Introduction: Women of Carifesta</h2>
@@ -73,6 +62,20 @@ nav menu on top
   <p>...</p>
 </div>
 -->
+<body>
+
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Exhibit Navigation</a>
+  <ul class="nav nav-pills">
+    {% for section in site.sections %}
+      <li class="nav-item">
+        <a class="nav-link" href="#{{ section.id }}">{{ section.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+
 
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
   {% for section in site.sections %}
@@ -81,6 +84,11 @@ nav menu on top
   </div>
   {% endfor %}
 </div>
+
+<!-- Including Bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
 
 <!---
 ## Introduction: Women of Carifesta
