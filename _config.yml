@@ -29,6 +29,16 @@ keywords: carifesta;history;women;caribbean;festival
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: René Johannes Kooiker
 
+
+##########
+# CREATING SECTIONS FOLDER FOR EASIER UPDATING AND ADDITIONS
+
+collections:
+  sections:
+    output: true
+    permalink: /:collection/:name/
+
+
 ##########
 # COLLECTION SETTINGS
 #

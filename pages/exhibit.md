@@ -20,8 +20,9 @@ nav menu on top
 
 <!---experimenting with nav scrollspy on bootstrap-->
 
+<!---
 <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Navigation</a>
   <ul class="nav nav-pills">
     <li class="nav-item">
       <a class="nav-link" href="#scrollspyHeading1">Introduction: Women of Carifesta</a>
@@ -43,24 +44,44 @@ nav menu on top
     </li>
   </ul>
 </nav>
+-->
+
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Exhibit Navigation</a>
+  <ul class="nav nav-pills">
+    {% for section in site.sections %}
+      <li class="nav-item">
+        <a class="nav-link" href="#{{ section.id }}">{{ section.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+<!---
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-  <h4 id="scrollspyHeading1">Introduction: Women of Carifesta</h4>
+  <h2 id="scrollspyHeading1">Introduction: Women of Carifesta</h2>
   <p>...</p>
-  <h4 id="scrollspyHeading2">Lynette Dolphin</h4>
+  <h2 id="scrollspyHeading2">Lynette Dolphin</h2>
   <p>...</p>
-  <h4 id="scrollspyHeading3">Louise Bennett</h4>
+  <h2 id="scrollspyHeading3">Louise Bennett</h2>
   <p>...</p>
-  <h4 id="scrollspyHeading4">Lorna Goodison</h4>
+  <h2 id="scrollspyHeading4">Lorna Goodison</h2>
   <p>...</p>
-  <h4 id="scrollspyHeading5">Guyana Drums</h4>
+  <h2 id="scrollspyHeading5">Guyana Drums</h2>
   <p>...</p>
-  <h4 id="scrollspyHeading6">Notes</h4>
+  <h2 id="scrollspyHeading6">Notes</h2>
   <p>...</p>
 </div>
+-->
 
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  {% for section in site.sections %}
+    <h2 id="{{ section.id }}">{{ section.title }}</h2>
+    <p>{{ section.content }}</p>
+  {% endfor %}
+</div>
 
-
-
+<!---
 ## Introduction: Women of Carifesta
 
 Chances are that you haven’t heard of the Caribbean Festival of Arts, one of the largest regional festivals of culture in the Caribbean. Starting in Guyana in 1972, the festival has traveled widely around the region over its 50-year history, including editions in Jamaica, Barbados, Cuba, Suriname, and Trinidad & Tobago. As scholars learn more about the history of this festival, it’s becoming clear that it could never have happened without the artistic contributions and organizational work of Caribbean women. Despite prevailing inequalities and bias, women at Carifesta also found opportunities to launch their careers and stage their art in front of thousands. 
@@ -131,3 +152,5 @@ Louise Bennett’s verse finds communality in Caribbean rhythm and performance. 
 [^4]: Raschid Osman, "All Kinds of Folk." Sunday Graphic, August 27, 1972.
 [^5]: Darryl Dean, "Now a Cultural Federation." Sunday Guardian, September 10, 1972.
 [^6]: Shauna Sweeney, "Market Marronage: Fugitive Women and the Internal Marketing System in Jamaica, 1781–1834." The William and Mary Quarterly 76, no. 2 (2019): 197–222, 197.
+
+-->
