@@ -76,8 +76,9 @@ nav menu on top
 
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
   {% for section in site.sections %}
-    <h2 id="{{ section.id }}">{{ section.title }}</h2>
-    <p>{{ section.content }}</p>
+  <div id="{{ section.id }}">
+    {{ section.content | markdownify }}
+  </div>
   {% endfor %}
 </div>
 
