@@ -95,7 +95,7 @@ nav menu on top
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
 
-<nav id="navbar" class="navbar bg-body-tertiary px-3 mb-3 sticky top">
+<nav id="navbar" class="navbar bg-body-tertiary px-3 mb-3 sticky-top">
   <a class="navbar-brand" href="#">Exhibit Navigation</a>
   <ul class="nav nav-pills">
     {% for section in site.sections %}
