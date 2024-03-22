@@ -27,9 +27,9 @@
                 <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home" >
             </a>{% endif %}
             <h1 class="display-4">{{ site.title }}</h1>
-            {% if site.tagline %}<p class="mb-0 mb-3">{{ site.tagline }}</p>{% endif %}
+            {% if site.tagline %}<h4 class="mb-4">{{ site.tagline }}</h4>{% endif %}
              <!-- CTA Button -->
-             <a href="/exhibit.html" class="btn btn-primary btn-lg mb-3">Explore Now</a>
+             <a href="/exhibit.html" class="btn btn-primary btn-lg mb-3">Enter the Exhibit</a>
         </div>
     </div>
 </div>
@@ -38,7 +38,7 @@
     <div class="row align-items-center">
         <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
             <h1 class="mt-2"><a class="text-dark" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
-            {% if site.tagline %}<p>{{ site.tagline }}</p>{% endif %}
+            {% if site.tagline %}<h6>{{ site.tagline }}</h6>{% endif %}
         </div>
         {% if site.organization-logo-banner %}
         <div class="col-md-3 d-none d-lg-block text-end">
