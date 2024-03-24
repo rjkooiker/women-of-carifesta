@@ -1,0 +1,5 @@
+**This site is for educational and research purposes only.**
+
+Images and videos personally scanned or downloaded from collections held by the Digital Library of the Caribbean, the Rauner Special Collections Library at Dartmouth College, Yale University Library, the Banyan Archive, the Schomburg Center archives at the New York Public Library, and the ProQuest Women's Magazine Archive.
+
+Under Section 107 of the Copyright Act in 1976, allowance is made for "Fair Use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use. All rights and credit go directly to its rightful owners. No copyright infringement intended.
