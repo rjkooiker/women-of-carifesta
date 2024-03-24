@@ -26,3 +26,4 @@ banner image here {% include feature/jumbotron.html objectid="https://cdil.lib.u
 
 ## Rights
 
+{ include cb/rights.md %}
