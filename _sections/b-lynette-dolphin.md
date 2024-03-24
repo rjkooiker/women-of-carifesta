@@ -9,7 +9,7 @@ In 1966, the Prime Minister of Guyana, Forbes Burnham, delivered a speech to Car
 
 The second-ever Guyanese recipient of a scholarship to attend London’s Royal Academy of Music, Lynette Dolphin was an anthologist of Guyanese folk music and an accomplished pianist who performed with the ensemble for the "Legend of Kaieteur," the Guyanese chorale by Philip Pilgrim. For many years, she led the Guyanese National History and Arts Council.
 
-In 1970, Burnham organized a second meeting of Caribbean artists and writers to formulate policy recommendations for the festival. Lynette Dolphin chaired the Music and Dance Sub-Committee. As the official Carifesta Secretariat was assembled, she became Carifesta Director.
+In 1970, Burnham organized a second meeting of Caribbean artists and writers to formulate policy recommendations for the festival. Dolphin chaired the Music and Dance Sub-Committee. As the official Carifesta Secretariat was assembled, she became Carifesta Director.
 
 {% include feature/image.html objectid="b02" width="75" caption="Lynette Dolphin with Fitzroy Bryant, Minister of Education of St. Kitts and Nevis" %}
 
