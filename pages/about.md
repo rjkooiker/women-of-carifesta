@@ -14,6 +14,7 @@ banner image here {% include feature/jumbotron.html objectid="https://cdil.lib.u
 
 --> 
 
+
 ## About this Exhibit
 
 <!-- this is the page about the exhibit -->
@@ -27,3 +28,9 @@ banner image here {% include feature/jumbotron.html objectid="https://cdil.lib.u
 ## Rights
 
 {% include cb/rights.md %}
+
+## Contact
+
+<div class="iframe-container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScg2yo95u5VUIsaXSPKlIbAlQXOy4Og3HnW8LEn9MggF-Yadw/viewform?embedded=true" width="640" height="561" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
