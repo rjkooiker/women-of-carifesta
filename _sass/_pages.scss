@@ -75,6 +75,15 @@
     line-height: 1.5em; 
     z-index: 10;
 }
+
+/* Contact form */
+.iframe-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if you have enough vertical space */
+    height: 100%; /* You might need to adjust or remove this depending on your layout */
+}
+
 /* creating a narrow text column */ 
 .about-contents > {
     h2 {
