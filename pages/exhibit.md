@@ -4,18 +4,7 @@ layout: about
 permalink: /exhibit.html
 # include CollectionBuilder info at bottom
 credits: false
-# Edit the markdown on in this file to describe your collection
-# Look in _includes/feature for options to easily add features to the page
 ---
-
-<!---
-
-banner image here
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
-
-nav menu on top
-{% include feature/nav-menu.html sections="Introduction: Women of Carifesta;Lynette Dolphin;Louise Bennett;Lorna Goodison;Guyana Drums;Notes" %}
---> 
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
 
@@ -27,6 +16,9 @@ nav menu on top
         <a class="nav-link" href="#{{ section.title | slugify }}">{{ section.title }}</a>
       </li>
     {% endfor %}
+    <li class="nav-item">
+      <a class="nav-link" href="#contact-button-bottom">Contact</a>
+      </li>
   </ul>
 </nav>
 
@@ -39,7 +31,10 @@ nav menu on top
   {% endfor %}
 </div>
 
-<!-- Including Bootstrap -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<div id="contact-button-bottom" class="text-center mt-4">
+  <div class="container">
+    <a href="https://forms.gle/RE9TZP1bGGCAoFfe9" class="btn btn-primary btn-lg" role="button" target="_blank" style="width: 100%;">Contact Us</a>
+  </div>
+</div>
 
 </body>
