@@ -5,23 +5,24 @@ layout: page
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 <div class="row">
 
-  <div class="col-md-8">
+  <div class="col-md-12">
 
     {% include index/description.html %}
     {% include index/carousel.html title="Sample Items" %}
     
   </div>
-  <div class="col-md-4">  
-
-    {% include index/time.html %}
-
+  <div class="col-md-4"> <!-- Adjust the column size to fit both sections within 12 columns -->
     {% include index/featured-terms.html field="subject" title="Exhibit Tags" btn-color="primary" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="primary" %}
-    
-    {% include index/objects.html %}
-
   </div>
+
+  <div class="col-md-4"> <!-- Adjust the column size to fit both sections within 12 columns -->
+    {% include index/featured-terms.html field="location" title="Locations" btn-color="primary" %}
+  </div>
+
+  <div class="col-md-4"> <!-- Adjust the column size to fit both sections within 12 columns -->
+    {% include index/time.html %}
+  </div>
+
   <div class="col-md-12">
 
     {% include index/data-download.html %}
