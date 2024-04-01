@@ -6,3 +6,13 @@
     background-color: white;
     z-index: 1030; /* Or any number higher than the elements below it */
   }
+
+.title-pill {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.carousel-caption, .carousel-item-title {
+    background: none !important; // Add !important to ensure override
+}
