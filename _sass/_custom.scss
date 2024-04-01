@@ -16,3 +16,16 @@
 .carousel-caption, .carousel-item-title {
     background: none !important; // Add !important to ensure override
 }
+
+.animated-text {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
