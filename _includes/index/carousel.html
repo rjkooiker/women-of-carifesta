@@ -18,8 +18,8 @@
     
 {%- endcomment -%}
 
-{%- assign carousel-max = include.max | default: 9 -%}
-{%- assign btn-color = include.btn-color | default: "primary" -%}
+{%- assign carousel-max = include.max | default: 13 -%}
+{%- assign btn-color = include.btn-color | default: "secondary" -%}
 {%- assign btn-text = include.btn-text | default: "View Item" -%}
 {% if site.data.theme.carousel-child-objects == true %}
 {%- assign carousel-items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: "item","item.image_small != nil or item.image_thumb != nil"-%}
@@ -31,7 +31,7 @@
     Set up carousel div
 {%- endcomment -%}
 <style>
-    #imageCarousel .carousel-item { height: {{ include.height | remove: 'px' | strip | default: '300' }}px; }
+    #imageCarousel .carousel-item { height: {{ include.height | remove: 'px' | strip | default: '450' }}px; }
 </style>
 <div class="card mb-3">
     {% if include.header %}<h2 class="card-header h5">{{ include.header }}</h2>{% endif %}
@@ -85,12 +85,16 @@
         // create indicator 
         indicator = `<button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="${i.toString()}" ${ i == 0 ? 'class="active" aria-current="true" ' : '' }aria-label="Slide ${i.toString()}"></button>`;
         // create slide
+        // create slide
         slide = `<div class="carousel-item py-2${ i == 0 ? ' active' : '' }">
-            <img class="d-block h-100 mx-auto lazyload" alt="${carouselItems[i][4]}" data-src="${itemImg}">
+            <a href="${itemLink}">
+                <img class="d-block h-100 mx-auto lazyload" alt="${carouselItems[i][4]}" data-src="${itemImg}">
+            </a>
             <div class="carousel-caption">
-                <h3 class="carousel-item-title text-white py-2 h6">${carouselItems[i][0]}</h3>
-                <a href="${itemLink}" class="btn btn-sm btn-{{ btn-color }}">{{ btn-text }}</a>
+            <h3 class="carousel-item-title text-white py-2 h6"><span class="title-pill">${carouselItems[i][0]}</span></h3>
             </div></div>`;
+
+
         slides += slide;
         indicators += indicator;
     }
