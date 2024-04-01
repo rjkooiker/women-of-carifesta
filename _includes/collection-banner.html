@@ -1,38 +1,46 @@
 {% if page.layout == "home-infographic" and site.data.theme.featured-image %}
 <style>
 #home-banner {
-    height: 100vh;
-    background-image: url('{{ site.data.featured_item.src | relative_url }}');
+    flex-grow: 1; /* Allows the banner to expand and fill the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically within the banner */
+    align-items: center; /* Centers the content horizontally */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
+    background-position: center center;
 }
+
 #home-title-box {
-    padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-    padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
+    /* Adjust padding as necessary, but flexbox alignment may reduce the need for large padding */
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%; /* Ensure it spans the full width */
 }
-@media screen and (max-width: 576px) {
-    #home-title-box {
-        max-height: 500px;
-    }
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
 </style>
 
-
-<div id="home-banner" class="container-fluid mb-0 p-0">
-    <div id="home-title-box" class="position-relative">
-        <div class="p-2 text-center text-white bg-dark bg-opacity-50">
-            {% if site.organization-logo-nav %}
-            <a class="d-none d-md-block animated-text" style="animation-delay: 0s;" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
-            </a>
-            {% endif %}
-            <h1 class="display-4 animated-text" style="animation-delay: 1s;">{{ site.title }}</h1>
-            {% if site.tagline %}
-            <h4 class="mb-4 animated-text" style="animation-delay: 2s;">{{ site.tagline }}</h4>
-            {% endif %}
-            <!-- CTA Button -->
-            <a href="/exhibit.html" class="btn btn-primary btn-lg mb-3 animated-text" style="animation-delay: 3s;">Enter the Exhibit</a>
+<div class="page-container"> <!-- Start of the flex container -->
+    <div id="home-banner" class="container-fluid mb-0 p-0">
+        <div id="home-title-box" class="position-relative">
+            <div class="p-2 text-center text-white bg-dark bg-opacity-50">
+                {% if site.organization-logo-nav %}
+                <a class="d-none d-md-block animated-text" style="animation-delay: 0s;" href="{{ site.organization-link }}" target="_blank" rel="noopener">
+                    <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
+                </a>
+                {% endif %}
+                <h1 class="display-4 animated-text" style="animation-delay: 1s;">{{ site.title }}</h1>
+                {% if site.tagline %}
+                <h4 class="mb-4 animated-text" style="animation-delay: 2s;">{{ site.tagline }}</h4>
+                {% endif %}
+                <!-- CTA Button -->
+                <a href="/exhibit.html" class="btn btn-primary btn-lg mb-3 animated-text" style="animation-delay: 3s;">Enter the Exhibit</a>
+            </div>
         </div>
     </div>
 </div>
@@ -54,3 +62,4 @@
     </div>
 </div>
 {%- endif -%}
+
