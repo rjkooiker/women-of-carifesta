@@ -1,5 +1,5 @@
 ---
-title: "Introduction: Women of Carifesta"
+title: "Introduction"
 ---
 ---
 Chances are that you haven’t heard of the Caribbean Festival of Arts, one of the largest regional festivals of culture in the Caribbean. Starting in Guyana in 1972, the festival has traveled widely around the region over its 50-year history, including editions in Jamaica, Barbados, Cuba, Suriname, and Trinidad & Tobago. As scholars learn more about the history of this festival, it’s becoming clear that it could never have happened without the artistic contributions and organizational work of Caribbean women. Despite prevailing inequalities and bias, women at Carifesta also found opportunities to launch their careers and stage their art in front of thousands. 
