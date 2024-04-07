@@ -37,4 +37,14 @@
             
         </div>
     </div>
+
+    <!--jQuery to ensure navbar menu collapse on click event-->
+    <script>
+        $(document).ready(function () {
+            $('.navbar-nav>li>a').on('click', function(){
+                $('.navbar-collapse').collapse('hide');
+            });
+        });
+    </script>
+
 </nav>
