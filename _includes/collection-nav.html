@@ -38,11 +38,20 @@
         </div>
     </div>
 
-    <!--jQuery to ensure navbar menu collapse on click event-->
+    <!--jQuery for navbar menu collapse on click event-->
     <script>
         $(document).ready(function () {
-            $('.navbar-nav>li>a').on('click', function(){
-                $('.navbar-collapse').collapse('hide');
+            // Closes the navbar when a link inside it is clicked
+            $(".navbar-nav>li>a").on('click', function () {
+                $(".navbar-collapse").collapse('hide');
+            });
+
+            // Closes the navbar when the toggler button is clicked
+            $(".navbar-toggler").on('click', function () {
+                var navOpen = $(".navbar-collapse").hasClass('show');
+                if (navOpen) {
+                    $(".navbar-collapse").collapse('hide');
+                }
             });
         });
     </script>
