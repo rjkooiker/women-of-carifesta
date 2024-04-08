@@ -4,7 +4,9 @@ title: "Lorna Goodison"
 ---
 {% include feature/image.html objectid="d01" width="75" caption="Portrait of Lorna Goodison by Frank Born" %}
 
-Though she would become well-known as a generational talent in Jamaican poetry, and now has a five-decade career and a much-lauded body of work behind her, Lorna Goodison started her creative life as a visual artist. After studies at the Jamaica School of Art and a stint at The Art Students League of New York (taking a course with no less than Jacob Lawrence), she cobbled together odd jobs in public relations and advertising. A lesser known fact about her life is that she worked for the advertising firm contracted to do promotional work for CARIFESTA 1976 in Jamaica. She later became the festival’s official "Advertising Consultant." This is the story of the work she did for CARIFESTA and the memories of the festival she still cherishes. "The way everybody in the arts just took part in it—it was quite stunning," she said.
+Though she would become well-known as a generational talent in Jamaican poetry, and now has a five-decade career and a much-lauded body of work behind her, Lorna Goodison started her creative life as a visual artist. After studies at the Jamaica School of Art and a stint at The Art Students League of New York (taking a course with no less than Jacob Lawrence), she cobbled together odd jobs in public relations and advertising. A lesser known fact about her life is that she worked for the advertising firm contracted to do promotional work for CARIFESTA 1976 in Jamaica. She later became the festival’s official "Advertising Consultant." This is the story of the work she did for CARIFESTA and the memories of the festival she still cherishes. 
+
+>The way everybody in the arts just took part in it—it was quite stunning.
 
 {% include feature/image.html objectid="d02" width="75" caption="News article on the 1976  CARIFESTA Secretariat" %}
 
