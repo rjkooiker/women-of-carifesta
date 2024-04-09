@@ -1,32 +1,87 @@
 /* 
-    Put your custom SCSS here! 
-    This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
+  Put custom SCSS here! 
+  This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
-#navbar {
-    background-color: white;
-    z-index: 1030; /* Or any number higher than the elements below it */
-  }
 
 .title-pill {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 20px;
-    padding: 5px 10px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 5px 10px;
 }
 .carousel-caption, .carousel-item-title {
-    background: none !important; // Add !important to ensure override
+  background: none !important; // Add !important to ensure override
 }
 
 .animated-text {
-    opacity: 0;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
   
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
+}
+
+// Custom fonts live here://
+
+.nav-pills .nav-link {
+  color: black;
+ }
+
+
+//sidebar and main content layout here://
+
+
+.wrapper {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#content {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+#content.sidebar-open {
+  padding-left: 250px; /* Adjust padding as needed */
+}
+
+/* Sidebar */
+#sidebar {
+  position: fixed;
+  min-width: 250px;
+  padding: 20px 20px;
+  transition: transform 0.3s ease-out; 
+  transform: translateX(-150%);
+  border-radius: 10px; // Rounded edges
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); // Slight shadow
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 9998;
+}
+
+#sidebar.active {
+  transform: translateX(0);
+}
+
+.sidebarToggle {
+  /* Positioning */
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  
+  /* Styling */
+  background-color: #f8f9fa;
+  border: none; 
+  border-radius: 50%;
+  padding: 10px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  z-index: 9999;
+}
+
 
