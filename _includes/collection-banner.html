@@ -34,7 +34,9 @@
                     <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
                 </a>
                 {% endif %}
-                <h1 class="display-4 animated-text" style="animation-delay: 1s;">{{ site.title }}</h1>
+                <div class="headline-font">
+                    <h1 class="display-4 animated-text" style="animation-delay: 1s;">{{ site.title }}</h1>
+                </div>
                 {% if site.tagline %}
                 <h4 class="mb-4 animated-text" style="animation-delay: 2s;">{{ site.tagline }}</h4>
                 {% endif %}
@@ -42,23 +44,6 @@
                 <a href="/exhibit.html" class="btn btn-primary btn-lg mb-3 animated-text" style="animation-delay: 3s;">Enter the Exhibit</a>
             </div>
         </div>
-    </div>
-</div>
-
-{%- else -%}
-<div class="container">
-    <div class="row align-items-center">
-        <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
-            <h1 class="mt-2"><a class="text-dark" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
-            {% if site.tagline %}<h6>{{ site.tagline }}</h6>{% endif %}
-        </div>
-        {% if site.organization-logo-banner %}
-        <div class="col-md-3 d-none d-lg-block text-end">
-            <a class="btn btn-outline-light" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
-            </a>
-        </div>
-        {% endif %}
     </div>
 </div>
 {%- endif -%}
