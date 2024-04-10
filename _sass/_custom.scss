@@ -3,6 +3,16 @@
   This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+
+
+// Headline font://
+
+.headline-font {
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .title-pill {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.75);
@@ -85,3 +95,100 @@
 }
 
 
+// Interactive expanding hover columns here://
+
+$expand-column-transition: all 0.5s ease-in-out;
+$expand-column-background-color: #2c3840;
+$expand-column-hover-width: 40%;
+$expand-column-fluid: true;
+$global-width: 1200px;
+@mixin breakpoint($point) {
+  @if $point == small {
+    @media (max-width: 600px) { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 601px) and (max-width: 900px) { @content; }
+  }
+  @else if $point == large {
+    @media (min-width: 901px) { @content; }
+  }
+}
+
+.expand-column-wrapper {
+  height: 100vh;
+  display: flex;
+
+  @if $expand-column-fluid == 'true' {
+    max-width: none;
+  } @else {
+    max-width: $global-width;
+  }
+
+  .column {
+    padding: 1rem;
+    transition: $expand-column-transition;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      flex-basis: $expand-column-hover-width;
+    }
+
+    &:hover {
+      .expand-column-content {
+        opacity: 1;
+      }
+    }
+  }
+
+  .expand-column-content {
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity $expand-column-transition, flex-basis $expand-column-transition;  // Modify this line
+  }
+
+  @include breakpoint(sm only) {
+    flex-direction: column;
+  }
+}
+
+.expand-column-wrapper .column {
+  &:nth-of-type(1) {
+    background: url('https://rjkooiker.com/img/b01.jpg') center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  &:nth-of-type(2) {
+    background: url('https://rjkooiker.com/img/c01.jpg') center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  &:nth-of-type(3) {
+    background: url('https://rjkooiker.com/img/d01.jpg') center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  &:nth-of-type(4) {
+    background: url('https://rjkooiker.com/img/e01.jpg') center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  &:nth-of-type(5) {
+    background: url('https://rjkooiker.com/img/f02.jpg') center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  // &:nth-of-type(6) {
+  //   background: url('https://rjkooiker.com/img/g01.jpg') center center no-repeat;
+  //   height: 100vh;
+  //   background-size: cover;
+  // }
+}
