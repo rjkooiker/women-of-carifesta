@@ -4,24 +4,31 @@
 */
 
 
+// Main font ://
 
-// Headline font://
 
-.headline-font {
-  font-family: "itc-avant-garde-gothic-pro", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.title-pill {
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.75);
-  border-radius: 20px;
-  padding: 5px 10px;
+h2 {
+  color:#00a97b; // Replace with your desired color
 }
-.carousel-caption, .carousel-item-title {
-  background: none !important; // Add !important to ensure override
+
+// Footnotes styling://
+
+.footnotes {
+  border-top: 1px solid #e1e1e1; // Add thin gray line on top
+  padding-top: 10px; // Add space above footnotes
 }
+
+.footnotes ol {
+}
+
+.footnotes li {
+}
+
+// Landing headline styling://
 
 .animated-text {
   opacity: 0;
@@ -36,7 +43,17 @@
   }
 }
 
-// Custom fonts live here://
+// Gallery styling://
+
+.title-pill {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.carousel-caption, .carousel-item-title {
+  background: none !important; // Add !important to ensure override
+}
 
 .nav-pills .nav-link {
   color: black;
@@ -44,7 +61,6 @@
 
 
 //sidebar and main content layout here://
-
 
 .wrapper {
   padding: 20px;
@@ -92,103 +108,4 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   z-index: 9999;
-}
-
-
-// Interactive expanding hover columns here://
-
-$expand-column-transition: all 0.5s ease-in-out;
-$expand-column-background-color: #2c3840;
-$expand-column-hover-width: 40%;
-$expand-column-fluid: true;
-$global-width: 1200px;
-@mixin breakpoint($point) {
-  @if $point == small {
-    @media (max-width: 600px) { @content; }
-  }
-  @else if $point == medium {
-    @media (min-width: 601px) and (max-width: 900px) { @content; }
-  }
-  @else if $point == large {
-    @media (min-width: 901px) { @content; }
-  }
-}
-
-.expand-column-wrapper {
-  height: 100vh;
-  display: flex;
-
-  @if $expand-column-fluid == 'true' {
-    max-width: none;
-  } @else {
-    max-width: $global-width;
-  }
-
-  .column {
-    padding: 1rem;
-    transition: $expand-column-transition;
-    display: flex;
-    flex: 1 0 auto;
-    align-items: center;
-    justify-content: center;
-
-    &:hover {
-      flex-basis: $expand-column-hover-width;
-    }
-
-    &:hover {
-      .expand-column-content {
-        opacity: 1;
-      }
-    }
-  }
-
-  .expand-column-content {
-    color: white;
-    font-weight: bold;
-    opacity: 0;
-    transition: opacity $expand-column-transition, flex-basis $expand-column-transition;  // Modify this line
-  }
-
-  @include breakpoint(sm only) {
-    flex-direction: column;
-  }
-}
-
-.expand-column-wrapper .column {
-  &:nth-of-type(1) {
-    background: url('https://rjkooiker.com/img/b01.jpg') center center no-repeat;
-    height: 100vh;
-    background-size: cover;
-  }
-
-  &:nth-of-type(2) {
-    background: url('https://rjkooiker.com/img/c01.jpg') center center no-repeat;
-    height: 100vh;
-    background-size: cover;
-  }
-
-  &:nth-of-type(3) {
-    background: url('https://rjkooiker.com/img/d01.jpg') center center no-repeat;
-    height: 100vh;
-    background-size: cover;
-  }
-
-  &:nth-of-type(4) {
-    background: url('https://rjkooiker.com/img/e01.jpg') center center no-repeat;
-    height: 100vh;
-    background-size: cover;
-  }
-
-  &:nth-of-type(5) {
-    background: url('https://rjkooiker.com/img/f02.jpg') center center no-repeat;
-    height: 100vh;
-    background-size: cover;
-  }
-
-  // &:nth-of-type(6) {
-  //   background: url('https://rjkooiker.com/img/g01.jpg') center center no-repeat;
-  //   height: 100vh;
-  //   background-size: cover;
-  // }
 }
