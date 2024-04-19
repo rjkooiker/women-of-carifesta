@@ -12,7 +12,7 @@ body {
 }
 
 h2 {
-  color:#00a97b; // Replace with your desired color
+  color:#00a97b;
 }
 
 // Footnotes styling://
@@ -26,6 +26,16 @@ h2 {
 }
 
 .footnotes li {
+}
+
+// Blockquote styling://
+
+blockquote {
+  border-left: 5px solid #00a97b; // Add left border with desired color
+  background-color: rgba(0, 169, 123, 0.2); // Add semi-transparent background with the same color as the border-left
+  padding-left: 10px; // Add left padding
+  margin: 10px 0; // Add margin top and bottom
+  border-radius: 5px; // Add rounded borders
 }
 
 // Landing headline styling://
