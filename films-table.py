@@ -5,17 +5,17 @@ import os
 def create_excerpt(text, max_length=50):
     words = text.split()
     if len(text) <= max_length or len(words) < 8:
-        return text  # Return original if it's short enough or doesn't have enough words to excerpt
+        return text, False  # Return original if it's short enough or doesn't have enough words to excerpt
 
     # Construct the excerpt: first three words + ellipsis + last three words
     excerpt = ' '.join(words[:3]) + ' ... ' + ' '.join(words[-3:])
-    return excerpt
+    return excerpt, True  # Return the excerpt and True indicating an ellipsis was added
 
 def csv_to_bootstrap_table(csv_file_path, output_html_path):
     table_html = """
 <div class="table-responsive">
     <table class="table">
-        <caption class="caption-top">Detailed Filmography of Caribbean Cultural Documentaries</caption>
+        <caption class="caption-top">CARIFESTA Filmography</caption>
         <thead>
             <tr>
                 <th>Title</th>
@@ -44,8 +44,12 @@ def csv_to_bootstrap_table(csv_file_path, output_html_path):
         for row in reader:
             row_html = '<tr>'
             for cell in row:
-                excerpt = create_excerpt(cell)
-                row_html += f'<td data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="{html.escape(cell)}">{html.escape(excerpt)}</td>'
+                excerpt, has_ellipsis = create_excerpt(cell)
+                if has_ellipsis:
+                    cell_html = f'<td data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="{html.escape(cell)}">{html.escape(excerpt)}</td>'
+                else:
+                    cell_html = f'<td>{html.escape(cell)}</td>'
+                row_html += cell_html
             row_html += '</tr>\n'
             table_html += row_html
     
