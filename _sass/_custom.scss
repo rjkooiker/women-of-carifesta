@@ -6,7 +6,6 @@
 
 // Main font ://
 
-
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -15,17 +14,17 @@ h2 {
   color:#00a97b;
 }
 
-// Footnotes styling://
+// Footnotes styling: //
 
 .footnotes {
   border-top: 1px solid #e1e1e1; // Add thin gray line on top
   padding-top: 10px; // Add space above footnotes
 }
 
-.footnotes ol {
-}
-
-.footnotes li {
+/* Styling for tooltip NOT WORKING FOR SOME REASON - DEBUG  */
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
 }
 
 // Blockquote styling://
@@ -75,8 +74,8 @@ blockquote {
 .wrapper {
   padding: 20px;
   display: flex;
-  width: 100%;
   align-items: stretch;
+  width: 100vw;
 }
 
 #content {

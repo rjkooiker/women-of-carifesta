@@ -48,19 +48,18 @@ credits: false
       </div>
     </div>
   </div>
+
 </div>
+
+<!-- Sidebar Collapse Scripts -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Sidebar Collapse Script -->
-
 <script>
-
 function toggleNav() {
   const sidebar = document.getElementById('sidebar');
   sidebar.classList.toggle('active');
 }
-
 </script>
 
 </body>
