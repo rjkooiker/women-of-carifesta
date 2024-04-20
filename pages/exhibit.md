@@ -8,8 +8,6 @@ credits: false
 
 <body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="0">
 
-<div class="wrapper">
-
 <!-- Sidebar Collapse Button -->
 <button 
         type="button" id="sidebarToggle"  class="sidebarToggle"  onclick="toggleNav()" aria-label="Exhibit Navigation">
@@ -33,6 +31,8 @@ credits: false
   </nav>
 
 <!-- Main Text Content -->
+
+<div class="wrapper d-flex flex-column justify-content-center align-items-center">
 
   <div id="content">
 
