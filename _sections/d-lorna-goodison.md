@@ -4,10 +4,10 @@ title: "Lorna Goodison"
 ---
 {% include feature/image.html objectid="d01" width="75" caption="Portrait of Lorna Goodison by Frank Born" %}
 
-Though she would become well-known as a generational talent in Jamaican poetry, Lorna Goodison started her creative life as a visual artist. After studies at the Jamaica School of Art and a stint at The Art Students League of New York (taking a course with no less than Jacob Lawrence), she cobbled together odd jobs in public relations and advertising. Interestingly,  in 1976 she worked for Don Miller & Associates, the advertising firm contracted to do promotional work for CARIFESTAin Jamaica that year. She later became the festival’s official “Advertising Consultant.”
+Though she would become well-known as a generational talent in Jamaican poetry, Lorna Goodison started her creative life as a visual artist. After studies at the Jamaica School of Art and a stint at The Art Students League of New York (taking a course with no less than Jacob Lawrence), she cobbled together odd jobs in public relations and advertising. Interestingly,  in 1976 she worked for Don Miller & Associates, the advertising firm contracted to do promotional work for CARIFESTA in Jamaica that year. She later became the festival’s official “Advertising Consultant.”
 
-<blockquote class="blockquote">
-  <p>The way everybody in the arts just took part in it—it was quite stunning.</p>
+<blockquote class="blockquote d-flex flex-column align-items-center">
+  <p>"The way everybody in the arts just took part in it—it was quite stunning."</p>
 </blockquote>
 
 {% include feature/image.html objectid="d02" width="75" caption="News article on the 1976  CARIFESTA Secretariat" %}
