@@ -21,10 +21,15 @@ h2 {
   padding-top: 10px; // Add space above footnotes
 }
 
-/* Styling for tooltip NOT WORKING FOR SOME REASON - DEBUG  */
-.custom-tooltip {
-  --bs-tooltip-bg: var(--bd-violet-bg);
-  --bs-tooltip-color: var(--bs-white);
+/* Styling for tooltip  */
+  .custom-tooltip {
+    --bs-tooltip-bg: rgba(0, 169, 123, 1); // Increase the opacity of the tooltip background
+    padding: 5px 10px; // Add padding to the tooltip
+    font-size: 16px; // Increase the font size of the tooltip text
+  }
+
+.ellipsis {
+  border-bottom: 1px dotted grey;
 }
 
 // Blockquote styling://

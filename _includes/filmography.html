@@ -1,3 +1,4 @@
+<body>
 
 <div class="table-responsive">
     <table class="table">
@@ -37,4 +38,26 @@ Le Festival des arts des Caraïbes (CARIFESTA) est le premier festival des arts 
         </tbody>
     </table>
 </div>
-    
+
+<script>
+
+    // Enable Bootstrap tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const cells = document.querySelectorAll('td[data-bs-toggle="tooltip"]');
+    cells.forEach(cell => {
+        // Check if the cell text contains ellipsis
+        if (cell.textContent.includes('...')) {
+            cell.innerHTML = `<span class="ellipsis">${cell.innerHTML.trim()}</span>`;
+        }
+    });
+});
+
+
+</script>
+ 
+</body>
