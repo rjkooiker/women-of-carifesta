@@ -4,15 +4,107 @@
 */
 
 
-// Main font ://
+// Main fonts
+
+// Josefin Sans, Montserrat, Jost, Source Sans Pro://
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 h2 {
   color:#00a97b;
 }
+
+#home-banner {
+  flex-grow: 1; /* Allows the banner to expand and fill the available space */
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://rjkooiker.com/img/a01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#home-banner h1 {
+  /* Add your styling here */
+  font-size: 10vw; /* Adjust as needed */
+  text-align: center;
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  text-shadow: 0px 0px 20px #000;
+  font-weight: 400;
+  font-style: normal;
+  /* line-height: 110%; /* 281.6px */
+  /* letter-spacing: 5.12px; */
+  color: white; /* Set the color to white */
+}
+
+#home-banner h4 {
+  /* Add your styling here */
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white; /* Set the color to white */
+}
+
+/* When the viewport is 600px or less, adjust the font size */
+
+@media (max-width: 600px) {
+
+  #home-banner h1 {
+  font-size: 14vw; /* Adjust as needed */
+  text-align: center;
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  text-shadow: 0px 0px 20px #000;
+  font-weight: 400;
+  font-style: normal;
+  /* line-height: 110%; /* 281.6px */
+  /* letter-spacing: 5.12px; */
+  color: white; /* Set the color to white */
+  }
+
+  #home-banner h4 {
+      font-size: 6vw; /* Adjust as needed */
+      padding-left: 1rem; /* Add left padding */
+      padding-right: 1rem; /* Add right padding */
+  }
+}
+
+#home-title-box {
+  /* Adjust padding as necessary, but flexbox alignment may reduce the need for large padding */
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 100%; /* Ensure it spans the full width */
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+#home-banner-credit {
+  font-size: 1rem;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+}
+
 
 // Footnotes styling: //
 
@@ -26,6 +118,7 @@ h2 {
     --bs-tooltip-bg: rgba(0, 169, 123, 1); // Increase the opacity of the tooltip background
     padding: 5px 10px; // Add padding to the tooltip
     font-size: 16px; // Increase the font size of the tooltip text
+    font-family: "Source Sans 3", sans-serif;
   }
 
 .ellipsis {
