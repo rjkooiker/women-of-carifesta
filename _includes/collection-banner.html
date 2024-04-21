@@ -72,6 +72,17 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+#home-banner-credit {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 }
 
 </style>
@@ -101,15 +112,23 @@
         </div>
 
         <!-- Organization Logo -->
-        <div class="position-fixed bottom-0 end-0 p-3">
+        <div class="position-absolute" style="bottom: 0; right: 0; padding: 1rem;">
             {% if site.organization-logo-nav %}
-                <a class="animated-text" style="animation-delay: 0s;" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                    <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
-                </a>
+            <a class="animated-text" style="animation-delay: 0s;" href="{{ site.organization-link }}" target="_blank" rel="noopener">
+                <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
+            </a>
+            {% endif %}
+        </div>
+
+        <!-- Image Credit -->
+        <div class="position-absolute" style="bottom: 0; left: 0; padding: 1rem;">
+            {% if site.data.theme.featured-image %}
+            <a class="animated-text" style="animation-delay: 0s;" href="/items/a01.html" target="_blank" rel="noopener">
+                    <span id="home-banner-credit">Image Credit:</span>
+            </a>
             {% endif %}
         </div>
 
     </div>
 </div>
 {%- endif -%}
-
