@@ -1,10 +1,10 @@
 ---
-title: Further Reading
+title: Sources
 layout: page
-permalink: /further-reading.html
+permalink: /sources.html
 credits: false
 ---
-## Further Reading
+## Sources
 
 Here you will find a selection of resources you can consult to learn more about Carifesta and do your own research. Click on a header to see the list of sources.
 
@@ -19,7 +19,7 @@ Here you will find a selection of resources you can consult to learn more about 
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <!-- Content for Online Lectures and Talks -->
-            Coming Soon!
+           {% include carifesta-talks.html %}
         </div>
     </div>
 </div>
