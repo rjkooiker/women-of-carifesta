@@ -8,6 +8,7 @@ Though she would become well-known as a generational talent in Jamaican poetry, 
 
 <blockquote class="blockquote d-flex flex-column align-items-center">
   <p>"The way everybody in the arts just took part in it—it was quite stunning."</p>
+  <footer>— Lorna Goodison</footer>
 </blockquote>
 
 {% include feature/image.html objectid="d02" width="75" caption="News article on the 1976  CARIFESTA Secretariat" %}

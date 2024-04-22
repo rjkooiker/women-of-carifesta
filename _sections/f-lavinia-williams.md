@@ -25,6 +25,7 @@ Also part of Williams’ busy Carifesta schedule was her morning dance mastercla
 
 <blockquote class="blockquote d-flex flex-column align-items-center">
 <p> "While I was there [at CARIFESTA], Lavinia Williams was teaching Haitian dance forms as a part of the series. The government called her back to Haiti. And she saw me and she says, “Chuck, I have to go back to Haiti, take over my classes, I don’t want to cancel,” so she said, “will you take over my classes?” So they made arrangements for somebody to pick me up from where I was then and I came over [...]. I wasn’t teaching Haitian! I was teaching what I knew was dance, and at that point you know their traditions, and the class was exciting, and she had about twelve, and after the third day I had about 40 people."</p>
+<footer>— Chuck Davis</footer>
 </blockquote>
 
 Her masterclass was so popular and successful that Williams promised to return to Guyana as a teacher. Reportedly, she was "so impressed with the natural aptitude of the Guyanese people for music and dancing that she is hoping to start classes locally at the National Cultural Centre or the University of Guyana to teach voodoo dancing and drumming.”[^lavinia-williams-6] Many of her students have spoken about her enduring legacy in Guyanese dance.[^lavinia-williams-7]
