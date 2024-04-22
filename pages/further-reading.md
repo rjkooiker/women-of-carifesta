@@ -6,15 +6,17 @@ credits: false
 ---
 ## Further Reading
 
+Here you will find a selection of resources you can consult to learn more about Carifesta and do your own research. Click on a header to see the list of sources.
+
 <div class="accordion" id="accordionExample">
 
 <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             Online Lectures and Talks
         </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <!-- Content for Online Lectures and Talks -->
             Coming Soon!
@@ -45,7 +47,7 @@ credits: false
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <!-- Content for Books Published for Carifesta -->
-            Coming Soon!
+            {% include carifesta-bibliography.html %}
         </div>
     </div>
 </div>
