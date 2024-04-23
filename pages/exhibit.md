@@ -1,8 +1,7 @@
 ---
 title: Exhibit
-layout: default
+layout: page
 permalink: /exhibit.html
-# include CollectionBuilder info at bottom
 credits: false
 ---
 
@@ -16,7 +15,7 @@ credits: false
 
 <!-- Sidebar -->
 
-  <nav id="sidebar" class="sidebar bg-body-primary px-3">
+  <nav id="sidebar" class="sidebar">
         <a class="navbar-brand" href="#">Exhibit Navigation</a>
           <ul class="nav nav-pills flex-column">
             {% for section in site.sections %}
@@ -32,10 +31,7 @@ credits: false
 
 <!-- Main Text Content -->
 
-<div class="wrapper d-flex flex-column justify-content-center align-items-center">
-
   <div id="content">
-
   {% for section in site.sections %}
     <div id="{{ section.title | slugify }}">
       <h2>{{ section.title }}</h2>
@@ -48,8 +44,6 @@ credits: false
       </div>
     </div>
   </div>
-
-</div>
 
 <!-- Sidebar Collapse Scripts -->
 
