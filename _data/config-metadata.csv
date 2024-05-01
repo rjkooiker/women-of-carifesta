@@ -9,6 +9,7 @@ latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
 identifier,Source Identifier,,,,
+ext_link,External Link,,true,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license
