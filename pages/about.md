@@ -8,13 +8,6 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-<!---
-
-banner image here {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
-
---> 
-
-
 ## About this Exhibit
 
 <!-- this is the page about the exhibit -->
