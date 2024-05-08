@@ -53,8 +53,7 @@ The 1981 edition of CARIFESTA in Barbados was the first to host a space in the f
 Described as one of the Caribbean’s “cultural midwives,” Maxwell gave a stirring, heartfelt, and erudite keynote address titled “The Weakened Sex.” She was given over an hour to speak. Her argument about the conditions of Caribbean womanhood can be understood as what we might now call transnational feminism: 
 <blockquote class="blockquote d-flex flex-column align-items-center">
 <p>
-“In the same way that the centre nations have emerged as colonizers and exploiters of the periphery nations of the 3rd world, so too have men colonized and dominated and exploited women over the last centuries, sometimes with the best of intentions. [...] We not only have to declare black, which we are, in all shades and sizes and levels of consciousness, and which in the Caribbean is cardinal to our wholeness, individuation, creativity, claiming of our freedoms and identities but we also have to declare, claim, live and struggle for liberation of the black woman artist.
-"</p>
+“In the same way that the centre nations have emerged as colonizers and exploiters of the periphery nations of the 3rd world, so too have men colonized and dominated and exploited women over the last centuries, sometimes with the best of intentions. [...] We not only have to declare black, which we are, in all shades and sizes and levels of consciousness, and which in the Caribbean is cardinal to our wholeness, individuation, creativity, claiming of our freedoms and identities but we also have to declare, claim, live and struggle for liberation of the black woman artist."</p>
 <footer>— Marina Ama Omowale Maxwell, “The Weakened Sex,” in Journey in the Shaping: Report of the First Symposium on Women in Caribbean Culture--July 24, 1981, ed. Margaret Hope (Women and Development Unit, University of West Indies, 1981), 35–39.</footer>
 </blockquote>
 
