@@ -23,7 +23,9 @@
 </div>
 <!-- Masonry - Ensures layout applied only after images have loaded! -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script>
+document.addEventListener('DOMContentLoaded', function() {
     var elem = document.querySelector('.row');
     var msnry = new Masonry( elem, {
         // options
@@ -32,9 +34,9 @@
     });
     // layout Masonry after each image loads
     imagesLoaded(elem).on('progress', function() {
-        // layout Masonry after each image loads
         msnry.layout();
     });
+});
 </script>
 
 <style>
