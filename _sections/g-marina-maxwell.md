@@ -14,7 +14,7 @@ While in London in the late 1960s, she worked as a secretary for the Caribbean A
 
 Her short fiction and poetry have been featured in publications such as *Wasafiri Magazine*, *The Heinemann Book of Caribbean Poetry*, *Whispers from the Cotton Tree Root: Caribbean Fabulist Fiction*, and *Breaklight: An Anthology of Caribbean Poetry*. Her standalone publications include *Decades to Ama* and *Chopstix in Mauby*.
 
-{% include feature/image.html objectid="g02;g03" width="75" caption="Cover for the publication of *Play Mas'* and *Hounsi Kanzo* depicting the butterfly structure from the play;Cover of Savacou, issue 2, which featured Maxwells essay "Towards a Revolution in the Arts"" %}
+{% include feature/image.html objectid="g02;g03" width="75" caption="Cover for the publication of *Play Mas'* and *Hounsi Kanzo* depicting the butterfly structure from the play;Cover of Savacou, issue 2, which featured Maxwells essay 'Towards a Revolution in the Arts'" %}
 
 Maxwell's first theater production dates back to 1959, entitled "Cane Arrowing," a "Words and Music programme" dramatizing the arrival of Christianity "to the Black Man in the New World." This production was staged at the University College of the West Indies (as UWI Mona was known before independence). Arrowing is agricultural terminology for the flowering or blooming of sugarcane; in the context of 1959, the symbolism suggests the country's imminent independence. Already present is a theme that would preoccupy Maxwell throughout her work: the synthesis of European and African cultural traditions in the Caribbean. Notably, the influential Jamaican playwright Dennis Scott was part of the production as an undergraduate student.
 
