@@ -14,7 +14,7 @@ While in London in the late 1960s, she worked as a secretary for the Caribbean A
 
 Her short fiction and poetry have been featured in publications such as *Wasafiri Magazine*, *The Heinemann Book of Caribbean Poetry*, *Whispers from the Cotton Tree Root: Caribbean Fabulist Fiction*, and *Breaklight: An Anthology of Caribbean Poetry*. Her standalone publications include *Decades to Ama* and *Chopstix in Mauby*.
 
-{% include feature/image.html objectid="g02;g03" width="75" caption="Cover for the publication of *Play Mas'* and *Hounsi Kanzo* depicting the butterfly structure from the play;Cover of Savacou, issue 2, which featured Maxwells essay 'Towards a Revolution in the Arts'" %}
+{% include feature/image.html objectid="g02;g03" width="75" caption="Cover for the publication of <i>Play Mas'</i> and <i>Hounsi Kanzo</i> depicting the butterfly structure from the play;Cover of <i>Savacou</i>, issue 2, which featured Maxwells essay 'Towards a Revolution in the Arts'" %}
 
 Maxwell's first theater production dates back to 1959, entitled "Cane Arrowing," a "Words and Music programme" dramatizing the arrival of Christianity "to the Black Man in the New World." This production was staged at the University College of the West Indies (as UWI Mona was known before independence). Arrowing is agricultural terminology for the flowering or blooming of sugarcane; in the context of 1959, the symbolism suggests the country's imminent independence. Already present is a theme that would preoccupy Maxwell throughout her work: the synthesis of European and African cultural traditions in the Caribbean. Notably, the influential Jamaican playwright Dennis Scott was part of the production as an undergraduate student.
 
@@ -40,7 +40,7 @@ Her invitation to CARIFESTA 1979 in Cuba almost certainly resulted from the conn
 
 Once again the sole woman on a roster of distinguished speakers, Maxwell contributed to the symposium by calling on her fellow writers to revive and expand the original Caribbean Artists Movement (CAM) to the wider region. The movement lay dormant since 1972, when Edward Brathwaite’s attempts to bring CAM to Jamaica had fallen on deaf ears. In her talk, “Towards a Caribbean Artists Movement,” she described her proposal in great detail. She hoped "to produce out of CARIFESTA, Havana, Cuba 1979, the foundation and nucleus of a network, a movement of Caribbean artists. I propose a CARIFESTA Resolution to set up a Committee to work out the logistics.” Though she is not acknowledged explicitly, Maxwell's call initiated the resolution that the symposium speakers eventually signed and addressed to their respective governments, urging the continued support of CARIFESTA.[^maxwell-3]
 
-{% include feature/image.html objectid="g05" width="75" caption="Book cover for *About Our Own Business*" %}
+{% include feature/image.html objectid="g05" width="75" caption="Book cover for <i>About Our Own Business</i>" %}
 
 Her 1981 book *About Our Own Business* gathered the aforementioned talks, edited versions of the interviews with African writers from 1974, and other essays and speeches that she delivered between the years 1974-1980. She had written to John La Rose of New Beacon Books to pitch a publication of her African interviews as early as 1974, but he eventually declined. Ever-persistent, Maxwell published the book herself under the label Drum Mountain. At the next CARIFESTA (1981 in Barbados), Maxwell brought *About Our Own Business* to display and sell at the festival's book exhibit.
 
