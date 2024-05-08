@@ -46,12 +46,18 @@ Her 1981 book *About Our Own Business* gathered the aforementioned talks, edited
 
 {% include feature/pdf.html objectid="g06" width="75" caption="Program booklet for the 1981 Women in Culture symposium" %}
 
-The 1981 edition of CARIFESTA in Barbados was the first to host a space in the festival specifically dedicated to Caribbean women artists and intellectuals. It was one of the pioneering Caribbean feminist symposiums. Sponsored by the Barbados Ministry of Education and Culture, as well as the new Department of Women's Affairs and the Women in Development Unit at UWI Cave Hill, the "Women in Culture" brought together newer and older generations of female Caribbean artists and intellectuals, such as Louise Bennett, Olive Lewin, Ivy Baxter, the Sistren Theatre 
-Here, Maxwell was given the recognition she sought and deserved. As the keynote speaker, she was given over an hour to address the crowd.
+The 1981 edition of CARIFESTA in Barbados was the first to host a space in the festival specifically dedicated to Caribbean women artists and intellectuals. It was one of the pioneering Caribbean feminist symposiums. Sponsored by the Barbados Ministry of Education and Culture, as well as the new Department of Women's Affairs and the Women in Development Unit at UWI Cave Hill, the "Women in Culture" brought together newer and older generations of female Caribbean artists and intellectuals, such as Louise Bennett, Olive Lewin, Ivy Baxter, and the Sistren Theatre. Here, Maxwell was given the recognition she sought and deserved.
 
 {% include feature/image.html objectid="g07" width="75" caption="Still image of Marina Maxwell delivering a lecture at the Women in Culture symposium" %}
 
-TK
+Described as one of the Caribbean’s “cultural midwives,” Maxwell gave a stirring, heartfelt, and erudite keynote address titled “The Weakened Sex.” She was given over an hour to speak. Her argument about the conditions of Caribbean womanhood can be understood as what we might now call transnational feminism: 
+<blockquote class="blockquote d-flex flex-column align-items-center">
+<p>
+“In the same way that the centre nations have emerged as colonizers and exploiters of the periphery nations of the 3rd world, so too have men colonized and dominated and exploited women over the last centuries, sometimes with the best of intentions. [...] We not only have to declare black, which we are, in all shades and sizes and levels of consciousness, and which in the Caribbean is cardinal to our wholeness, individuation, creativity, claiming of our freedoms and identities but we also have to declare, claim, live and struggle for liberation of the black woman artist.
+"</p>
+<footer>— Marina Ama Omowale Maxwell, “The Weakened Sex,” in Journey in the Shaping: Report of the First Symposium on Women in Caribbean Culture--July 24, 1981, ed. Margaret Hope (Women and Development Unit, University of West Indies, 1981), 35–39.</footer>
+</blockquote>
+
 
 [^maxwell-1]: H. H. Anniah Gowda. “The Association for Commonwealth Language and Literature Studies Conferences in Kampala.” Research in African Literatures 5, no. 2 (1974): 219–22. http://www.jstor.org/stable/3818678.
 
