@@ -32,12 +32,32 @@ Maxwell's work is often not sufficiently recognized among the pioneers of folk t
 
 {% include feature/image.html objectid="g04" width="75" caption="" %}
 
-TK
+Maxwell would bring these ideas about theater to writers' conferences abroad, including two visits to Cuba and her travels around Africa. At the 1974 ACLALS (Association for Commonwealth Literature and Language Studies) conference at Makerere University in Uganda, she was the sole female delegate, and one of three representatives of the Caribbean (along with Arthur Drayton and Kenneth Ramchand). Maxwell must have exchanged ideas about the resonances between her Yard Theater and African theater traditions with such icons of postcolonial African writing as Chinua Achebe Nuruddin Farah, and Peter Nazareth.[^maxwell-1] She produced interviews with some of these African writers for the Jamaica Broadcasting Corporation (JBC). The conference also led her to propose a "Third World Cultural Department" under the Organization for African Unity. Though initially fruitless, we shall see how the proposal resurfaces in various forms over the years.
+
+In 1975, Maxwell was invited as a "teatrista" (theater practitioner) to the "Encuentro de Escritores Latinoamericanos" (Meeting of Latin-American Writers) in Cuba, February 1975. On her first visit to the island, she joined a select group of Anglophone Caribbean writers, including Arthur Seymour and Edward Brathwaite. Her presentation, titled "Towards Third World Cultural Synthesis," was praised in the Cuban press.[^maxwell-2] 
+
+Her invitation to CARIFESTA 1979 in Cuba almost certainly resulted from the connections she had made there in 1975. The two-day symposium on “Caribbean Artistic and Literary Identity” (“Simposio sobre la Identidad del Arte y la Cultura del Caribe”) on 18-19 July drew a crowd of around 500 people and featured 21 writers and intellectuals.
+
+Once again the sole woman on a roster of distinguished speakers, Maxwell contributed to the symposium by calling on her fellow writers to revive and expand the original Caribbean Artists Movement (CAM) to the wider region. The movement lay dormant since 1972, when Edward Brathwaite’s attempts to bring CAM to Jamaica had fallen on deaf ears. In her talk, “Towards a Caribbean Artists Movement,” she described her proposal in great detail. She hoped "to produce out of CARIFESTA, Havana, Cuba 1979, the foundation and nucleus of a network, a movement of Caribbean artists. I propose a CARIFESTA Resolution to set up a Committee to work out the logistics.” Though she is not acknowledged explicitly, Maxwell's call initiated the resolution that the symposium speakers eventually signed and addressed to their respective governments, urging the continued support of CARIFESTA.[^maxwell-3]
 
 {% include feature/image.html objectid="g05" width="75" caption="" %}
 
-TK
+Her 1981 book *About Our Own Business* gathered the aforementioned talks, edited versions of the interviews with African writers from 1974, and other essays and speeches that she delivered between the years 1974-1980. She had written to John La Rose of New Beacon Books to pitch a publication of her African interviews as early as 1974, but he eventually declined. Ever-persistent, Maxwell published the book herself under the label Drum Mountain. At the next CARIFESTA (1981 in Barbados), Maxwell brought *About Our Own Business* to display and sell at the festival's book exhibit.
 
 {% include feature/pdf.html objectid="g06" width="75" caption="" %}
 
-TK
+The 1981 edition of CARIFESTA in Barbados was the first to host a space in the festival specifically dedicated to Caribbean women artists and intellectuals. It was one of the pioneering Caribbean feminist symposiums. Sponsored by the Barbados Ministry of Education and Culture, as well as the new Department of Women's Affairs and the Women in Development Unit at UWI Cave Hill, the "Women in Culture" brought together newer and older generations of female Caribbean artists and intellectuals, such as Louise Bennett, Olive Lewin, Ivy Baxter, the Sistren Theatre 
+Here, Maxwell was given the recognition she sought and deserved. As the keynote speaker, she was given over an hour to address the crowd.
+
+{% include feature/image.html objectid="g07" width="75" caption="" %}
+
+dedicated a substantial section of her talk to what she called a "praisesong" for Sistren.
+
+leads naturally to the next section
+
+
+[^maxwell-1]: H. H. Anniah Gowda. “The Association for Commonwealth Language and Literature Studies Conferences in Kampala.” Research in African Literatures 5, no. 2 (1974): 219–22. http://www.jstor.org/stable/3818678.
+
+[^maxwell-2]: Continúan sesiones del Encuentro de Escritores Latinoamericanos, Juventud Rebelde, 4 February 1975.
+
+[^maxwell-3]: The full resolution text was reprinted in the press. See *Granma*. “Texto De La Declaracion.” July 23, 1979.
