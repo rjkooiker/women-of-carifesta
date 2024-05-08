@@ -127,7 +127,7 @@ h2 {
 
 // Blockquote styling://
 
-blockquote {
+.blockquote {
   border-left: 5px solid #00a97b; // Add left border with desired color
   background-color: rgba(0, 169, 123, 0.2); // Add semi-transparent background with the same color as the border-left
   padding: 10px; // Add padding to all sides
@@ -192,8 +192,8 @@ blockquote {
   position: fixed;
   min-width: 250px;
   padding: 20px 20px;
-  transition: transform 0.3s ease-out; 
-  transform: translateX(-150%);
+  transition: transform 0.25s ease-out; 
+  transform: translateX(-600%);
   border-radius: 10px; // Rounded edges
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); // Slight shadow
   background-color: rgba(255, 255, 255, 1);
