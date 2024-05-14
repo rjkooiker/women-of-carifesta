@@ -55,13 +55,13 @@ Here you will find a selection of resources you can consult to learn more about 
 <div class="accordion-item">
     <h2 class="accordion-header" id="headingFour">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            Books About Carifesta
+            Journal Articles
         </button>
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-            <!-- Content for Books About Carifesta -->
-            Coming Soon!
+            <!-- Content for Journal Articles -->
+            {% include carifesta-journals.html %}
         </div>
     </div>
 </div>
@@ -69,24 +69,10 @@ Here you will find a selection of resources you can consult to learn more about 
 <div class="accordion-item">
     <h2 class="accordion-header" id="headingFive">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            Journal Articles
-        </button>
-    </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-            <!-- Content for Journal Articles -->
-            Coming Soon!
-        </div>
-    </div>
-</div>
-
-<div class="accordion-item">
-    <h2 class="accordion-header" id="headingSix">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             Magazine and Newspaper Articles
         </button>
     </h2>
-    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <!-- Content for Magazine and Newspaper Articles -->
             Coming Soon!
@@ -95,12 +81,12 @@ Here you will find a selection of resources you can consult to learn more about 
 </div>
 
 <div class="accordion-item">
-    <h2 class="accordion-header" id="headingSeven">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+    <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             Films and Documentaries
         </button>
     </h2>
-    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             {% include filmography.html %}
         </div>
@@ -108,12 +94,12 @@ Here you will find a selection of resources you can consult to learn more about 
 </div>
 
 <div class="accordion-item">
-    <h2 class="accordion-header" id="headingEight">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+    <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             Audio and Records
         </button>
     </h2>
-    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <!-- Content for Audio and Records -->
             Coming Soon!
