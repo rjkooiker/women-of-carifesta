@@ -40,14 +40,13 @@ Le Festival des arts des Caraïbes (CARIFESTA) est le premier festival des arts 
 </div>
 
 <script>
-
+document.addEventListener("DOMContentLoaded", function() {
     // Enable Bootstrap tooltips
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
 
-    document.addEventListener("DOMContentLoaded", function() {
     const cells = document.querySelectorAll('td[data-bs-toggle="tooltip"]');
     cells.forEach(cell => {
         // Check if the cell text contains ellipsis
@@ -56,8 +55,6 @@ Le Festival des arts des Caraïbes (CARIFESTA) est le premier festival des arts 
         }
     });
 });
-
-
 </script>
  
 </body>
