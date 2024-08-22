@@ -9,19 +9,21 @@ layout: page
 
     {% include index/description.html %}
 
-    {% include index/carousel.html title="Gallery" %}
+    {% include index/atteck.html %}
     
   </div>
-  <div class="col-md-4">
-    {% include index/featured-terms.html field="subject" title="Exhibit Tags" btn-color="primary" %}
-  </div>
+  <div class="row">
+    <div class="col-md-4">
+      {% include index/featured-terms.html field="subject" title="Exhibit Tags" btn-color="primary" %}
+    </div>
 
-  <div class="col-md-4">
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="primary" %}
-  </div>
+    <div class="col-md-4">
+      {% include index/featured-terms.html field="location" title="Locations" btn-color="primary" %}
+    </div>
 
-  <div class="col-md-4">
-    {% include index/time.html %}
+    <div class="col-md-4">
+      {% include index/time.html %}
+    </div>
   </div>
 
   <div class="col-md-12">
