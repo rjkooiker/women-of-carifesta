@@ -54,7 +54,7 @@ Ettu involves the "shawling" of one dancer by another "as a mark of appreciation
 
 [^sistren-1]: “Editorial,” Woman Speak! A Quarterly Newsletter about Caribbean Women, 1981.
 [^sistren-2]: Honor Ford-Smith, “Sistren: Exploring Women’s Problems through Drama,” Jamaica Journal, 1986.
-[^sistren-3]: Rhonda Cobham, “‘A Wha Kind a Pen Dis?’: The Function of Ritual Frameworks in Sistren’s Bellywoman Bangarang,” Theatre Research International 15, no. 3 (1990): 233–49, 248n2.
+[^sistren-3]: Rhonda Cobham-Sander, “‘A Wha Kind a Pen Dis?’: The Function of Ritual Frameworks in Sistren’s Bellywoman Bangarang,” Theatre Research International 15, no. 3 (1990): 233–49, 248n2.
 [^sistren-4]: Robert Carr, “Struggles from the Periphery: Sistren and the Politics of Subaltern Autobiography,” Dispositio 19, no. 46 (1994): 127–45, 130.
 [^sistren-5]: Honor Ford-Smith, “Ring Ding in a Tight Corner: Sistren, Collective Democracy, and the Organization of Cultural Production,” in Feminist Genealogies, Colonial Legacies, Democratic Futures (Routledge, 1996), 213–58.
 [^sistren-6]: Margaret Hope, Journey in the Shaping: Report of the First Symposium on Women in Caribbean Culture--July 24, 1981 (Women and Development Unit, University of West Indies, 1981), 53-54.
