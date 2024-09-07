@@ -1,5 +1,5 @@
 ---
-title: "Honor Ford-Smith and the Sistren Theatre Collective"
+title: "Honor Ford-Smith and the Sistren"
 ---
 ---
 {% include feature/image.html objectid="h01" width="75" caption="Honor Ford-Smith, “Sistren,” <i>Fuse: The Cultural News Magazine</i>, December 1981. Photograph by Isobel Harry." %}
