@@ -1,0 +1,46 @@
+{% if page.layout == "home-infographic" and site.data.theme.featured-image %}
+<div class="page-container"> <!-- Start of the flex container -->
+    
+    <div id="home-banner" class="container-fluid mb-0 p-0">
+
+        <!-- Title Box -->
+        <div id="home-title-box" class="position-relative">
+            <div class="p-2 text-white">
+                    <h1 class="display-1 animated-text" style="animation-delay: 0s; text-transform: uppercase;">{{ site.title }}</h1>
+            </div>
+        </div>
+
+        <!-- Site Tagline -->
+
+        <div class="d-flex justify-content-center align-items-center">
+            {% if site.tagline %}
+            <h4 class="mb-4 animated-text" style="animation-delay: 1s;">{{ site.tagline }}</h4>
+            {% endif %}
+        </div>
+
+        <!-- CTA Button -->
+        <div class="d-flex justify-content-center align-items-center">
+                <a href="/exhibit.html" class="btn btn-info btn-lg mb-3 animated-text" style="animation-delay: 2s; width: 200px;">Enter</a>
+        </div>
+
+        <!-- Organization Logo -->
+        <div class="position-absolute" style="bottom: 0; right: 0; padding: 1rem;">
+            {% if site.organization-logo-nav %}
+            <a class="animated-text" style="animation-delay: 0s;" href="{{ site.organization-link }}" target="_blank" rel="noopener">
+                <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
+            </a>
+            {% endif %}
+        </div>
+
+        <!-- Image Credit -->
+        <div class="position-absolute" style="bottom: 0; left: 0; padding: 1rem;">
+            {% if site.data.theme.featured-image %}
+            <a class="animated-text" style="animation-delay: 0s;" href="/items/a01.html" target="_blank" rel="noopener">
+                    <span id="home-banner-credit">Image Credit</span>
+            </a>
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+{%- endif -%}

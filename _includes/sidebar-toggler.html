@@ -1,0 +1,26 @@
+<!-- This script defines a function to toggle the visibility of a sidebar when a button is clicked. -->
+
+<script>
+/**
+ * Toggles the visibility of the sidebar.
+ */
+function toggleNav() {
+        // Get the current display status of the sidebar
+        MenuStatus = document.getElementById('sidebar').style.display;
+        
+        // If the sidebar is currently hidden, show it
+        if ( MenuStatus == 'none' ) {
+            document.getElementById('sidebar').style.display = 'block';
+        } 
+        // If the sidebar is currently visible, hide it
+        else {
+            document.getElementById('sidebar').style.display = 'none';
+        }
+}
+</script>
+
+<!-- This button triggers the toggleNav() function when clicked, toggling the visibility of the sidebar. -->
+<button 
+        type="button" id="sidebarToggle"  class="sidebarToggle"  onclick="toggleNav()" aria-label="Exhibit Navigation">
+        <i class="fas fa-align-left"></i>
+</button>

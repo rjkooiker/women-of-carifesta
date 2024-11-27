@@ -1,0 +1,85 @@
+##########
+# collectionbuilder-csv
+# Jekyll Digital Collection Generator
+# https://github.com/CollectionBuilder/collectionbuilder-csv
+##########
+
+##########
+# URL VARIABLES
+#
+# site domain, full URL to the production location of your collection
+url: 
+# path to location on the domain if necessary e.g. /digital/hjccc
+baseurl: 
+# location of code, the full url to your github repository
+source-code: https://github.com/rjkooiker/women-of-carifesta
+
+##########
+# SITE SETTINGS
+#
+# title of site appears in banner
+title: Women of Carifesta
+# tagline, a short phrase that will appear throughout the site in the top banner
+tagline: Recovering the Stories of Women at the Caribbean Festival of Arts
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: "This digital exhibit, built by René Johannes Kooiker in collaboration with the Digital Library of the Caribbean, recovers the stories of women's contributions to the Caribbean Festival of Arts (Carifesta)."
+# keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
+keywords: carifesta;history;women;caribbean;festival
+# creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
+author: René Johannes Kooiker
+
+
+##########
+# CREATING SECTIONS FOLDER FOR EASIER UPDATING AND ADDITIONS
+
+collections:
+  sections:
+    output: true
+    permalink: /:collection/:name/
+
+
+##########
+# COLLECTION SETTINGS
+#
+# Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
+# Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
+metadata: exhibit_data
+# page generation settings [optional!]
+# [optional: only used if you need to tweak CB defaults or generate from more than one data file]
+# page_gen:
+#   - data: 'demo-metadata'
+#     template: 'item'
+#     name: 'objectid'
+#     dir: 'items'
+#     extension: 'html' 
+#     filter: 'objectid'  
+
+##########
+# Site/Organization Branding 
+#   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
+#   To remove the branding, comment out these values, or delete them. 
+#
+organization-name: "Digital Library of the Caribbean"
+organization-link: https://dloc.com
+organization-logo-banner: https://dloc.com/static/media/dloc-logo-en-2.aca2ff118e6de1c737c00fb0b4df39d2.svg
+organization-logo-nav: https://dloc.com/static/media/dloc-logo-en-2.aca2ff118e6de1c737c00fb0b4df39d2.svg
+
+##########
+# ROBOTS EXCLUDE
+#
+# set noindex to true if you do NOT want Google to index your site
+# noindex: true 
+
+##########
+# BUILD SETTINGS 
+#
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
+#
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
+# compress CSS output
+sass:
+  style: compressed
