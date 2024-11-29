@@ -102,7 +102,7 @@ Here you will find a selection of resources you can consult to learn more about 
     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
         <div class="accordion-body">
             <!-- Content for Audio and Records -->
-            Coming Soon!
+            {% include carifesta-discography.html %}
         </div>
     </div>
 </div>
